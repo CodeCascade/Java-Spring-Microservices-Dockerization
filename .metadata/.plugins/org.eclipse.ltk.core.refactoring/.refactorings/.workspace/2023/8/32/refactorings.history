@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;Angular_Spring_CMS&apos;" deleteContents="false" description="Delete resource &apos;Angular_Spring_CMS&apos;" element1="/Angular_Spring_CMS" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1691815787531"/>
+</session>

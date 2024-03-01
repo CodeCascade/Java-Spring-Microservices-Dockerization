@@ -1,0 +1,14 @@
+#spring.h2.console.enabled=true
+#spring.datasource.url=jdbc:h2:mem:testdb
+#spring.jpa.defer-datasource-initialization=true
+spring.jpa.show-sql=true
+
+spring.datasource.url =jdbc:mysql://localhost:3306/social-media-database
+spring.datasource.username=social-media-user
+spring.datasource.password=dummypassword
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect
+
+
+# \connect social-media-user@localhost:3306

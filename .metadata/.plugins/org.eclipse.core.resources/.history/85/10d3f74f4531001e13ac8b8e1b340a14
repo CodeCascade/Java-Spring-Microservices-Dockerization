@@ -1,0 +1,49 @@
+package io.javabrains.springsecurityjpa;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.access.prepost.PreAuthorize;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.RestController;
+
+import io.javabrains.springsecurityjpa.entity.UserInfo;
+import io.javabrains.springsecurityjpa.service.UserService;
+
+@RestController
+@RequestMapping
+public class Controller {
+	
+	@Autowired
+	private UserService userService;
+
+	@GetMapping("/")
+	public String home() {
+		System.out.println("aaa");
+		return "Welcome";
+	}
+	
+	@GetMapping("/user")
+	@PreAuthorize("hasAuthority('ROLE_USER')")
+	public String user() {
+		return "Welcome User";
+	}
+	
+	
+	@GetMapping("/admin")
+	@PreAuthorize("hasAuthority('ROLE_ADMIN')")
+	public String admin() {
+		return "Welcome Admin";
+	}
+	
+	@PostMapping("/newuser")
+	public String addUser(@PathVariable UserInfo userinfo) {
+		System.out.println(userinfo);
+		return userService.addUser(userinfo);
+	}
+	
+	
+}

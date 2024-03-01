@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.jdt.debug.ui.MAIN_METHOD_SELECTION_DIALOG">
+		<item key="ShowStatusLine" value="true"/>
+		<item key="History" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0D;&#x0A;&lt;History&gt;&#x0D;&#x0A;&lt;historyRootNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=spring-security-authentication/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&amp;lt;com.in28minutes.microservices.springsecurityauthentication{SpringSecurityAuthenticationApplication.java[SpringSecurityAuthenticationApplication&lt;/infoNode&gt;&#x0D;&#x0A;&lt;infoNode&gt;=currency-exchange-service/C:\/Users\/INTEL\/.m2\/repository\/org\/antlr\/antlr4-runtime\/4.10.1\/antlr4-runtime-4.10.1.jar=/maven.pomderived=/true=/=/maven.groupId=/org.antlr=/=/maven.artifactId=/antlr4-runtime=/=/maven.version=/4.10.1=/=/maven.scope=/compile=/=/maven.pomderived=/true=/&amp;lt;org.antlr.v4.runtime.atn(PredictionMode$AltAndContextMap.class[AltAndContextMap&lt;/infoNode&gt;&#x0D;&#x0A;&lt;/historyRootNode&gt;&#x0D;&#x0A;&lt;/History&gt;"/>
+		<section name="DialogBoundsSettings">
+			<item key="DIALOG_HEIGHT" value="650"/>
+			<item key="DIALOG_WIDTH" value="483"/>
+			<item key="DIALOG_X_ORIGIN" value="669"/>
+			<item key="DIALOG_Y_ORIGIN" value="191"/>
+			<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+		</section>
+	</section>
+	<section name="expressionHistory">
+	</section>
+	<section name="conditionHistory">
+	</section>
+</section>

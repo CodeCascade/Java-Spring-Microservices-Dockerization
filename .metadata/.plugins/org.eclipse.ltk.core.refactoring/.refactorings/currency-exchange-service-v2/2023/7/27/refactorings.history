@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;currency-exchange-service-v2/src/main/resources/schema.sql&apos; to &apos;data.sql&apos;" description="Rename resource &apos;schema.sql&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/resources/schema.sql" name="data.sql" stamp="1688285400810" updateReferences="true"/>
+</session>
